@@ -1,2 +1,4 @@
 const text = "hello world"
-console.log(text);
+if(text){
+    console.log(text);
+}
