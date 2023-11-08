@@ -1,5 +1,7 @@
 const text = "hello world";
-if(text){
-    console.log(text + text);
-    return;
-}
+window.addEventListener("onClick", () =>{
+    if(text){
+        console.log(text + text);
+        return;
+    }
+})
